@@ -1,0 +1,41 @@
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+    gap: 100px;
+
+    &>h1 {
+        font-size: 40px;
+        color: #00b7ff;
+    }
+}
+
+.total-check {
+    text-align: center;
+    width: 1600px;
+    border-radius: 20px;
+    background-color: #69e8ff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    & .total-cost {
+        font-size: 25px;
+    }
+
+    & a {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        width: fit-content;
+    }
+}

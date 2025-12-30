@@ -1,0 +1,18 @@
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.body-container > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-top: 180px;
+
+    &>h1 {
+        font-size: 40px;
+        color: #00b7ff;
+    }
+}
